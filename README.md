@@ -2,6 +2,7 @@ autil
 =====
 
 Package autil offers different utility functions.
+Documentation: http://godoc.org/github.com/hirsch/autil
 
 ###Internet functions
 Currently supporting HTTP and HTTPS
