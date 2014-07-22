@@ -1,4 +1,4 @@
 autil
 =====
 
-Package autil offers different utility functions
+Package autil offers different utility functions.
