@@ -12,7 +12,6 @@ var InetUseragent = "" //User-Agent string used by Inet functions
 // InetGet downloads a file using the HTTP/HTTPS protocol.
 // The file is created/overwritten using the given filename.
 func InetGet(url, filename string) error {
-
 	file, err := os.Create(filename)
 	if err != nil {
 		return err
@@ -36,7 +35,6 @@ func InetGet(url, filename string) error {
 	if err != nil {
 		return err
 	}
-
 	return nil
 }
 
@@ -60,7 +58,6 @@ func InetRead(url string) (string, error) {
 	if err != nil {
 		return "", err
 	}
-
 	return string(body), nil
 }
 
@@ -84,6 +81,5 @@ func InetReadLimited(url string, limit int64) (string, error) {
 	if err != nil {
 		return "", err
 	}
-
 	return string(body), nil
 }
